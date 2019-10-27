@@ -1,22 +1,64 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.date-box{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding: 6%;
 }
 
-.App-link {
-  color: #09d3ac;
+.date-info{
+  display: flex;
+  align-items: center;
+}
+
+.month-year p{
+  font-size: 1.4rem;
+  margin: 0;
+}
+.day{
+  font-size: 3.3em;
+  margin: 0;
+}
+
+.month-name{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.weekday-name{
+  font-weight: bold;
+}
+
+.todo-list{
+  font-size: 1.5em;
+  padding: 2% 12%;
+  list-style: none;
+
+}
+.todo-list-item{
+  margin: 1em 0;
+}
+.done{
+text-decoration: line-through;
+opacity: .5;
+}
+.add-item{
+  position: fixed;
+  bottom: 0;
+  padding: 1em;
+  box-sizing: border-box;
+  border-top: 3px solid #DDD;
+  width: 100%;
+  display: flex;
+  border-radius: 15px;
+}
+.add-field{
+  border:1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  
+}
+.add-button{
+  background-color: #00fa9a;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  font-size: 2em;
+  margin-left: 2%;
 }
